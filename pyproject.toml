@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keyrotate"
+version = "0.1.0"
+description = "Versioned secret storage with batched master-key rotation"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=41"]
+
+[tool.setuptools]
+packages = ["keyrotate"]
